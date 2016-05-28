@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>前言 | Introduction</title>
+        <title>前言 | SpringSecurity 指北手册中文翻译</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.5.2">
@@ -37,6 +37,8 @@
         
     
     
+    <link rel="next" href="../getting_started/index.html" />
+    
     
     <link rel="prev" href="../index.html" />
     
@@ -46,7 +48,7 @@
     <body>
         
         
-    <div class="book" data-level="1" data-chapter-title="前言" data-filepath="preface/README.md" data-basepath=".." data-revision="Sat May 28 2016 14:00:49 GMT+0800 (CST)">
+    <div class="book" data-level="1" data-chapter-title="前言" data-filepath="preface/README.md" data-basepath=".." data-revision="Sat May 28 2016 21:33:18 GMT+0800 (CST)">
     
 
 <div class="book-summary">
@@ -89,6 +91,126 @@
             
         </li>
     
+        <li class="chapter " data-level="2" data-path="getting_started/index.html">
+            
+                
+                    <a href="../getting_started/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        入门
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="architecture_implementation/index.html">
+            
+                
+                    <a href="../architecture_implementation/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        结构和实现
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="testing/index.html">
+            
+                
+                    <a href="../testing/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        测试
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="wep_application_security/index.html">
+            
+                
+                    <a href="../wep_application_security/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        Web应用的安全
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="authorization/index.html">
+            
+                
+                    <a href="../authorization/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        授权
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="additional_topics/index.html">
+            
+                
+                    <a href="../additional_topics/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        其他主题
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="spring_data_integration/index.html">
+            
+                
+                    <a href="../spring_data_integration/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        与SpringData集成
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="appendix/index.html">
+            
+                
+                    <a href="../appendix/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        附录
+                    </a>
+            
+            
+        </li>
+    
 
 
             
@@ -112,7 +234,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../" >Introduction</a>
+        <a href="../" >SpringSecurity 指北手册中文翻译</a>
     </h1>
 </div>
 
@@ -122,7 +244,17 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="&#x524D;&#x8A00;">&#x524D;&#x8A00;</h1>
+                        <h1 id="&#x7B2C;&#x4E00;&#x90E8;&#x5206;--&#x524D;&#x8A00;">&#x7B2C;&#x4E00;&#x90E8;&#x5206;.  &#x524D;&#x8A00;</h1>
+<hr>
+<p>Spring Security provides a comprehensive security solution for Java EE-based enterprise software applications. As you will discover as you venture through this reference guide, we have tried to provide you a useful and highly configurable security system.</p>
+<p><em>Spring Security</em>  &#x4E3A;&#x57FA;&#x4E8E;JavaEE&#x7684;&#x4F01;&#x4E1A;&#x5E94;&#x7528;&#x63D0;&#x4F9B;&#x4E86;&#x5168;&#x9762;&#x7684;&#x5B89;&#x5168;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;&#x901A;&#x8FC7;&#x8FD9;&#x4EFD;&#x6307;&#x5357;&#x4F60;&#x4F1A;&#x53D1;&#x73B0;&#xFF0C;&#x6211;&#x4EEC;&#x5C1D;&#x8BD5;&#x4E3A;&#x4F60;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x53EF;&#x7528;&#x7684;&#x548C;&#x9AD8;&#x5EA6;&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x5B89;&#x5168;&#x7CFB;&#x7EDF;</p>
+<p>Security is an ever-moving target, and it&#x2019;s important to pursue a comprehensive, system-wide approach. In security circles we encourage you to adopt &quot;layers of security&quot;, so that each layer tries to be as secure as possible in its own right, with successive layers providing additional security.</p>
+<p>&#x4E00;&#x4E2A;&#x8F6F;&#x4EF6;&#x9700;&#x8981;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x5B89;&#x5168;&#x5404;&#x6709;&#x4E0D;&#x540C;&#xFF0C;&#x91CD;&#x8981;&#x7684;&#x662F;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x5168;&#x9762;&#x7CFB;&#x7EDF;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x5728;&#x5B89;&#x5168;&#x90BB;&#x57DF;&#xFF0C;&#x6211;&#x4EEC;&#x5F3A;&#x70C8;&#x5EFA;&#x8BAE;&#x4F60;&#x91C7;&#x53D6;&#x201C;layers of security&#x201D;(&#x5B89;&#x5168;&#x5C42;),&#x4F7F;&#x6BCF;&#x4E00;&#x5C42;&#x5728;&#x5B83;&#x81EA;&#x5DF1;&#x7684;&#x6743;&#x9650;&#x8303;&#x56F4;&#x5185;&#x5C3D;&#x53EF;&#x80FD;&#x5B89;&#x5168;&#xFF0C;&#x8FDE;&#x7EED;&#x5C42;&#x63D0;&#x4F9B;&#x989D;&#x5916;&#x7684;&#x5B89;&#x5168;&#x3002;</p>
+<p>The &quot;tighter&quot; the security of each layer, the more robust and safe your application will be</p>
+<p>&#x5B89;&#x5168;&#x5C42;&#x8D8A;&#x5BC6;&#x96C6;&#xFF0C;&#x4F60;&#x7684;&#x5E94;&#x7528;&#x4E5F;&#x4F1A;&#x66F4;&#x5065;&#x58EE;&#x66F4;&#x5B89;&#x5168;</p>
+<p>At the bottom level you&#x2019;ll need to deal with issues such as transport security and system identification, in order to mitigate man-in-the-middle attacks.</p>
+<p>&#x5728;&#x6700;&#x5E95;&#x5C42;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x89E3;&#x51B3;&#x8BF8;&#x5982;&#x4F20;&#x8F93;&#x7684;&#x5B89;&#x5168;,&#x7CFB;&#x7EDF;&#x8BC6;&#x522B;&#x7B49;&#x95EE;&#x9898;&#xFF0C;&#x4EE5;&#x51CF;&#x5C11;&#x4E2D;&#x95F4;&#x4EBA;&#x7684;&#x653B;&#x51FB;
+&#xFF08;&#x6CE8;:&#x4E2D;&#x95F4;&#x4EBA;<a href="https://zh.wikipedia.org/wiki/%E4%B8%AD%E9%97%B4%E4%BA%BA%E6%94%BB%E5%87%BB" target="_blank">&#x7EF4;&#x57FA;&#x767E;&#x79D1;</a>&#xFF09;</p>
 
                     
                     </section>
@@ -133,8 +265,10 @@
         </div>
 
         
-        <a href="../index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Introduction"><i class="fa fa-angle-left"></i></a>
+        <a href="../index.html" class="navigation navigation-prev " aria-label="Previous page: Introduction"><i class="fa fa-angle-left"></i></a>
         
+        
+        <a href="../getting_started/index.html" class="navigation navigation-next " aria-label="Next page: 入门"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

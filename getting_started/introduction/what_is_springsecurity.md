@@ -1,3 +1,5 @@
+### 1.1 什么是Spring Security
+
 Spring Security provides comprehensive security services for Java EE-based enterprise software applications. There is a particular emphasis on supporting projects built using The Spring Framework, which is the leading Java EE solution for enterprise software development. If you’re not using Spring for developing enterprise applications, we warmly encourage you to take a closer look at it. Some familiarity with Spring - and in particular dependency injection principles - will help you get up to speed with Spring Security more easily.
 
 SpringSecurity为基于JAVAEE的企业应用提供了全面的安全服务。对于企业软件的开发，spring框架是领先的JAVAEE解决方案。如果你还没有使用Spring开发企业应用，那我们强烈建议你深入了解它。熟悉Spring,特别是依赖注入，将会使你使用SpringSecurity更快速容易。

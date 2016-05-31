@@ -18,6 +18,9 @@ At an authentication level, Spring Security supports a wide range of authenticat
 
 Specifically, Spring Security currently supports authentication integration with all of these technologies:
 
+目前，Spring Security的认证可以与以下技术集成:
+
+
 HTTP BASIC authentication headers (an IETF RFC-based standard)
 
 HTTP Digest authentication headers (an IETF RFC-based standard)
@@ -77,6 +80,19 @@ Atlassian Crowd *
 Your own authentication systems (see below)
 
 (* Denotes provided by a third party
+
+带有星号的是第三方提供的
+
+Many independent software vendors (ISVs) adopt Spring Security because of this significant choice of flexible authentication models. Doing so allows them to quickly integrate their solutions with whatever their end clients need, without undertaking a lot of engineering or requiring the client to change their environment. If none of the above authentication mechanisms suit your needs, Spring Security is an open platform and it is quite simple to write your own authentication mechanism. Many corporate users of Spring Security need to integrate with "legacy" systems that don’t follow any particular security standards, and Spring Security is happy to "play nicely" with such systems.
+
+许多独立软件厂商（ISVs）因其灵活的认证模型支持而采用Spring Security。使用Spring Security，不管他们的用户需要什么认证方法，他们都可以快速将它们的解决方案整合到其中，而无需承担太多的工程任务亦或要求用户更改他们的应用环境。如果上面提及的这么多认证机制都不符合你的需求，没关系！！Spring Security是一个开放的平台，你很容易就可以编写自己的认证机制。有许多Spring Security的企业用户需要与“遗留系统”进行整合，然而“遗留系统”并不遵循任何特定的安全标准，对于这种情况，Spring Security也乐于与这些系统一起工作。
+
+
+Irrespective of the authentication mechanism, Spring Security provides a deep set of authorization capabilities. There are three main areas of interest - authorizing web requests, authorizing whether methods can be invoked, and authorizing access to individual domain object instances. To help you understand the differences, consider the authorization capabilities found in the Servlet Specification web pattern security, EJB Container Managed Security and file system security respectively. Spring Security provides deep capabilities in all of these important areas, which we’ll explore later in this reference guide.
+
+除了认证机制外，Spring Security还提供了一系列的授权能力。主要包含三个领域：（1）授权web请求；（2）授权是否允许方法调用；（3）授权对某个领域对象实例的存取。为了帮助你更好的明白它们的不同，请考虑一下下面的授权能力：Servlet规范中的web模式安全，EJB容器管理安全及文件系统安全。Spring Security在所有这些重要的领域提供了相应的能力，我们将在本参考指南的后续部分进行讨论。
+
+
 
 
 

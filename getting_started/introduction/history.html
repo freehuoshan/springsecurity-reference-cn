@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>介绍 | SpringSecurity 指北手册中文翻译</title>
+        <title>历史 | SpringSecurity 指北手册中文翻译</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.5.2">
@@ -37,10 +37,10 @@
         
     
     
-    <link rel="next" href="../../getting_started/introduction/what_is_springsecurity.html" />
+    <link rel="next" href="../../getting_started/introduction/release_numbering.html" />
     
     
-    <link rel="prev" href="../../getting_started/index.html" />
+    <link rel="prev" href="../../getting_started/introduction/what_is_springsecurity.html" />
     
 
         
@@ -48,7 +48,7 @@
     <body>
         
         
-    <div class="book" data-level="2.1" data-chapter-title="介绍" data-filepath="getting_started/introduction/README.md" data-basepath="../.." data-revision="Mon Jun 06 2016 21:25:32 GMT+0800 (CST)">
+    <div class="book" data-level="2.1.2" data-chapter-title="历史" data-filepath="getting_started/introduction/history.md" data-basepath="../.." data-revision="Mon Jun 06 2016 21:25:32 GMT+0800 (CST)">
     
 
 <div class="book-summary">
@@ -107,7 +107,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="2.1" data-path="getting_started/introduction/index.html">
+        <li class="chapter " data-level="2.1" data-path="getting_started/introduction/index.html">
             
                 
                     <a href="../../getting_started/introduction/index.html">
@@ -138,7 +138,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.1.2" data-path="getting_started/introduction/history.html">
+        <li class="chapter active" data-level="2.1.2" data-path="getting_started/introduction/history.html">
             
                 
                     <a href="../../getting_started/introduction/history.html">
@@ -316,7 +316,21 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h2 id="1-&#x4ECB;&#x7ECD;">1. &#x4ECB;&#x7ECD;</h2>
+                        <h1 id="12--&#x5386;&#x53F2;">1.2  &#x5386;&#x53F2;</h1>
+<hr>
+<p>Spring Security began in late 2003 as &quot;The Acegi Security System for Spring&quot;. A question was posed on the Spring Developers&apos; mailing list asking whether there had been any consideration given to a Spring-based security implementation. At the time the Spring community was relatively small (especially compared with the size today!), and indeed Spring itself had only existed as a SourceForge project from early 2003. The response to the question was that it was a worthwhile area, although a lack of time currently prevented its exploration.</p>
+<p>Spring Security&#x59CB;&#x4E8E;2003&#x5E74;&#x672B;&#xFF0C;&#x4E00;&#x5F00;&#x59CB;&#x53EB;&#x201C;The Acegi Security System for Spring&#x201D;&#x3002;&#x540E;&#x6765;&#xFF0C;&#x6709;&#x4EBA;&#x5728;Spring&#x7684;&#x5F00;&#x53D1;&#x8005;&#x90AE;&#x4EF6;&#x5217;&#x8868;&#x4E2D;&#x63D0;&#x51FA;&#x4E86;&#x4E2A;&#x95EE;&#x9898;&#xFF1A;&#x201C;&#x662F;&#x5426;&#x6709;&#x8003;&#x8651;&#x8FC7;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;Spring&#x7684;&#x5B89;&#x5168;&#x5B9E;&#x73B0;&#xFF1F;&#x201D;&#xFF0C;&#x5728;&#x90A3;&#x4E2A;&#x65F6;&#x5019;&#xFF0C;Spring&#x793E;&#x533A;&#x8FD8;&#x76F8;&#x5BF9;&#x5C0F;&#xFF08;&#x7279;&#x522B;&#x662F;&#x548C;&#x4ECA;&#x5929;&#x76F8;&#x6BD4;&#xFF09;&#xFF0C;&#x800C;Spring&#x672C;&#x8EAB;&#x4E5F;&#x662F;&#x5728;2003&#x5E74;&#x521D;&#x624D;&#x5F00;&#x59CB;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;SourceForge&#x9879;&#x76EE;&#x5B58;&#x5728;&#x3002;&#x5BF9;&#x4E8E;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x56DE;&#x590D;&#x662F;&#xFF1A;&#x201D;&#x5C3D;&#x7BA1;&#x73B0;&#x9636;&#x6BB5;&#x8FD8;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#x5C06;&#x5B83;&#x4ED8;&#x8BF8;&#x5B9E;&#x65BD;&#xFF0C;&#x4F46;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5F88;&#x6709;&#x4EF7;&#x503C;&#x7684;&#x9886;&#x57DF;&#x201C;&#x3002;</p>
+<p>With that in mind, a simple security implementation was built and not released. A few weeks later another member of the Spring community inquired about security, and at the time this code was offered to them. Several other requests followed, and by January 2004 around twenty people were using the code. These pioneering users were joined by others who suggested a SourceForge project was in order, which was duly established in March 2004.</p>
+<p>&#x8003;&#x8651;&#x5230;&#x8FD9;&#x70B9;&#xFF0C;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x5B89;&#x5168;&#x5B9E;&#x73B0;&#x88AB;&#x521B;&#x5EFA;&#xFF0C;&#x4F46;&#x662F;&#x6CA1;&#x6709;&#x53D1;&#x5E03;&#x3002;&#x51E0;&#x4E2A;&#x661F;&#x671F;&#x4EE5;&#x540E;&#xFF0C;Spring&#x793E;&#x533A;&#x7684;&#x5176;&#x5B83;&#x6210;&#x5458;&#x95EE;&#x53CA;&#x4E86;&#x5B89;&#x5168;&#x95EE;&#x9898;&#xFF0C;&#x6B64;&#x65F6;&#xFF0C;&#x5C06;&#x5B89;&#x5168;&#x5B9E;&#x73B0;&#x7684;&#x4EE3;&#x7801;&#x63D0;&#x4F9B;&#x7ED9;&#x4E86;&#x4ED6;&#x4EEC;&#x3002;&#x9646;&#x7EED;&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x4EBA;&#x6765;&#x7D22;&#x53D6;&#xFF0C;&#x5230;&#x4E86;2004&#x5E74;1&#x6708;&#xFF0C;&#x5DF2;&#x7ECF;&#x5927;&#x7EA6;&#x6709;20&#x4E2A;&#x4EBA;&#x5728;&#x4F7F;&#x7528;&#x8FD9;&#x4E2A;&#x4EE3;&#x7801;&#x3002;&#x8FD9;&#x4E9B;&#x5FD7;&#x613F;&#x4F7F;&#x7528;&#x8005;&#x4E2D;&#x53C8;&#x52A0;&#x5165;&#x4E86;&#x5176;&#x5B83;&#x4EBA;&#xFF0C;&#x4ED6;&#x4EEC;&#x7533;&#x8BF7;&#x4E86;&#x4E00;&#x4E2A;SourceForge&#x9879;&#x76EE;&#xFF0C;&#x5E76;&#x6700;&#x7EC8;&#x5728;2004&#x5E74;3&#x6708;&#x6210;&#x7ACB;&#x3002;</p>
+<p>In those early days, the project didn&#x2019;t have any of its own authentication modules. Container Managed Security was relied upon for the authentication process, with Acegi Security instead focusing on authorization. This was suitable at first, but as more and more users requested additional container support, the fundamental limitation of container-specific authentication realm interfaces became clear. There was also a related issue of adding new JARs to the container&#x2019;s classpath, which was a common source of end user confusion and misconfiguration.</p>
+<p>&#x5728;&#x65E9;&#x671F;&#xFF0C;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x5E76;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x5B83;&#x81EA;&#x5DF1;&#x7684;&#x8BA4;&#x8BC1;&#x6A21;&#x5757;&#x3002;&#x5BB9;&#x5668;&#x7BA1;&#x7406;&#x7684;&#x5B89;&#x5168;&#x662F;&#x4F9D;&#x8D56;&#x4E8E;&#x8BA4;&#x8BC1;&#x8FC7;&#x7A0B;&#xFF0C;&#x4E0E;Acegi Security&#xFF0C;&#x8F6C;&#x800C;&#x4E13;&#x6CE8;&#x4E8E;&#x6388;&#x6743;&#x3002;&#x6700;&#x521D;&#x8FD9;&#x662F;&#x5408;&#x9002;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x968F;&#x7740;&#x8D8A;&#x6765;&#x8D8A;&#x591A;&#x7684;&#x7528;&#x6237;&#x8981;&#x6C42;&#x989D;&#x5916;&#x7684;&#x5BB9;&#x5668;&#x652F;&#x6301;&#xFF0C;&#x7279;&#x5B9A;&#x4E8E;&#x5BB9;&#x5668;&#x7684;&#x8BA4;&#x8BC1;&#x9886;&#x57DF;&#x63A5;&#x53E3;&#x7684;&#x57FA;&#x672C;&#x9650;&#x5236;&#x53D8;&#x5F97;&#x8D8A;&#x6765;&#x8D8A;&#x660E;&#x663E;&#x3002;&#x4F8B;&#x5982;&#xFF1A;&#x9700;&#x8981;&#x589E;&#x52A0;jar&#x5305;&#x5230;&#x5BB9;&#x5668;&#x7684;classpath&#xFF0C;&#x8FD9;&#x662F;&#x7528;&#x6237;&#x9519;&#x8BEF;&#x914D;&#x7F6E;&#x7684;&#x4E3B;&#x8981;&#x6765;&#x6E90;</p>
+<p>Acegi Security-specific authentication services were subsequently introduced. Around a year later, Acegi Security became an official Spring Framework subproject. The 1.0.0 final release was published in May 2006 - after more than two and a half years of active use in numerous production software projects and many hundreds of improvements and community contributions.</p>
+<p>Acegi&#x5B89;&#x5168;&#x89C4;&#x8303;&#x8BA4;&#x8BC1;&#x670D;&#x52A1;&#x968F;&#x540E;&#x88AB;&#x5F15;&#x5165;&#xFF0C;&#x5927;&#x6982;&#x4E00;&#x5E74;&#x4EE5;&#x540E;&#xFF0C;Acegi&#x5B89;&#x5168;&#x53D8;&#x6210;&#x4E86;&#x4E00;&#x4E2A;&#x5B98;&#x65B9;&#x7684;Spring&#x6846;&#x67B6;&#x7684;&#x5B50;&#x9879;&#x76EE;&#x3002;&#x5728;&#x8D85;&#x8FC7;2&#x5E74;&#x534A;&#x65F6;&#x95F4;&#x91CC;&#xFF0C;&#x7ECF;&#x8FC7;&#x5728;&#x5927;&#x91CF;&#x751F;&#x4EA7;&#x8F6F;&#x4EF6;&#x9879;&#x76EE;&#x4E2D;&#x7684;&#x79EF;&#x6781;&#x4F7F;&#x7528;&#x53CA;&#x6210;&#x767E;&#x4E0A;&#x5343;&#x7684;&#x4FEE;&#x6539;&#x3001;&#x63D0;&#x9AD8;&#x548C;&#x793E;&#x533A;&#x8D21;&#x732E;&#xFF0C;&#x5176;1.0.0&#x6700;&#x7EC8;&#x7248;&#x5728;2006&#x5E74;5&#x6708;&#x6210;&#x529F;&#x53D1;&#x5E03;&#x3002;</p>
+<p>Acegi Security became an official Spring Portfolio project towards the end of 2007 and was rebranded as &quot;Spring Security&quot;.</p>
+<p>&#x5230;&#x4E86;2007&#x5E74;&#x672B;&#x5C3E;&#xFF0C;Acegi&#x79F0;&#x4E3A;&#x5B98;&#x65B9;Spring&#x9009;&#x96C6;&#x9879;&#x76EE;&#xFF0C;&#x5E76;&#x88AB;&#x66F4;&#x540D;&#x4E3A;&#x201D;Spring Security&#x201C;&#x3002;</p>
+<p>Today Spring Security enjoys a strong and active open source community. There are thousands of messages about Spring Security on the support forums. There is an active core of developers who work on the code itself and an active community which also regularly share patches and support their peers.</p>
+<p>&#x73B0;&#x5728;&#xFF0C;Spring Security&#x62E5;&#x6709;&#x5F3A;&#x5927;&#x6D3B;&#x8DC3;&#x7684;&#x5F00;&#x6E90;&#x793E;&#x533A;&#xFF0C;&#x5728;&#x8BBA;&#x575B;&#x4E0A;&#x6709;&#x5173;&#x4E8E;Spring Security&#x6570;&#x4EE5;&#x5343;
+&#x7684;&#x4FE1;&#x606F;&#x652F;&#x6301;&#x3002;&#x6709;&#x6D3B;&#x8DC3;&#x7684;&#x6838;&#x5FC3;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#xFF0C;&#x8FD8;&#x6709;&#x5B9A;&#x671F;&#x7684;&#x5171;&#x4EAB;&#x8865;&#x4E01;&#x3002;</p>
 
                     
                     </section>
@@ -327,10 +341,10 @@
         </div>
 
         
-        <a href="../../getting_started/index.html" class="navigation navigation-prev " aria-label="Previous page: 入门"><i class="fa fa-angle-left"></i></a>
+        <a href="../../getting_started/introduction/what_is_springsecurity.html" class="navigation navigation-prev " aria-label="Previous page: 什么是SpringSecurity"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../../getting_started/introduction/what_is_springsecurity.html" class="navigation navigation-next " aria-label="Next page: 什么是SpringSecurity"><i class="fa fa-angle-right"></i></a>
+        <a href="../../getting_started/introduction/release_numbering.html" class="navigation navigation-next " aria-label="Next page: 版本号"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

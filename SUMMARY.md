@@ -4,6 +4,8 @@
 * [入门](getting_started/README.md)
     * [介绍](getting_started/introduction/README.md)
         * [什么是SpringSecurity](getting_started/introduction/what_is_springsecurity.md)
+        * [历史](getting_started/introduction/history.md)
+        * [版本号](getting_started/introduction/release_numbering.md)
 * [结构和实现](architecture_implementation/README.md)
 * [测试](testing/README.md)
 * [Web应用的安全](wep_application_security/README.md)

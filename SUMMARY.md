@@ -7,6 +7,8 @@
         * [历史](getting_started/introduction/history.md)
         * [版本号](getting_started/introduction/release_numbering.md)
         * [获取Spring Security](getting_started/introduction/getting_springsecurity/README.md)
+            * [使用maven]（getting_started/introduction/getting_springsecurity/usage_with_maven.md）
+            * [使用Gradle]（getting_started/introduction/getting_springsecurity/use_gradle.md）
 * [结构和实现](architecture_implementation/README.md)
 * [测试](testing/README.md)
 * [Web应用的安全](wep_application_security/README.md)

@@ -1,6 +1,5 @@
 ##　 1.4.3　项目－模块
 
----
 
 In Spring Security 3.0, the codebase has been sub-divided into separate jars which more clearly separate different functionaltiy areas and third-party dependencies. If you are using Maven to build your project, then these are the modules you will add to your pom.xml. Even if you’re not using Maven, we’d recommend that you consult the pom.xml files to get an idea of third-party dependencies and versions. Alternatively, a good idea is to examine the libraries that are included in the sample applications.
 

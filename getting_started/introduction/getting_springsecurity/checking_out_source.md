@@ -12,5 +12,5 @@ To obtain the source for the project, use the following git command:
 
 This will give you access to the entire project history (including all releases and branches) on your local machine.
 
-这样你可以在你本地看到项目的整理历史（包括所有的版本和分支）。
+这样你可以在你本地看到项目的整个历史（包括所有的版本和分支）。
 
